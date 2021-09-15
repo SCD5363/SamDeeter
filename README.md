@@ -19,7 +19,7 @@
              display: block;
              color: white;
              text-align: center;
-             padding: 14px 16px;
+             padding: 10px 10px;
              text-decoration: none;
            }
            
@@ -70,6 +70,24 @@
             This is my website!!!
         </h3>
         </div>
+        <div style="text-align:center;">
+        <h3>
+            This is my website!!!
+        </h3>
+        </div>
+        <div style="text-align:center;">
+        <h3>
+            This is my website!!!
+        </h3>
+        </div>
+        <table>
+            <tr>
+                <td>Table</td>
+                <td>Table</td>
+                <td>Table</td>
+                <td>Table</td>
+            </tr>
+        </table>
         
     </body>
 </html>
