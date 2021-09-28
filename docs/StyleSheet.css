@@ -1,25 +1,46 @@
-  body {
+        head{
+            
+            text-align:center;
+        }
+        
+        body 
+            {
+                margin: 0;
+                font-family: 'Share Tech', sans-serif;
+                font-size:16px;
                 background-image: url("https://silviahartmann.com/background-tile-art/images/gray-background-repeating-2.jpg");
+                overflow-x:hidden;
             }           
+            main {
+             position:relative;
+             padding:7vh 0 10vh;
+             opacity:0;
+             margin-top:-5px;
+         }
         
         ul {
-            list-style-type: none;
+            list-style-type: square;
             margin: auto;
-            padding: 15px;
+            padding: 20px;
             overflow: hidden;
             background-color: #111;
             font-size: 20px;
         }
         
+        
         li {
             float: left;
+            display: block;
+        }
+        p{
+            color: white;
         }
         
         li a {
-            display: inline;
+            
             color: white;
             text-align: center;
-            padding: 14px 16px;
+            padding: 20px 20px;
             text-decoration: none;
         }
         
@@ -42,9 +63,30 @@
             text-shadow: 2px 2px 5px yellow;
             font-size: 80px;
             color: yellow;
-            font-family: arial;
+            font-family: arial, helvetica, san-serif;
+            text-align:center;
+            position:relative;
+            display:flex;
+            align-items:center;
+            font-family:'Share Tech Mono', monospace;
+            line-height: 1em;
+            word-spacing:-.1em;
+            letter-spacing:-.05em;
+            transition:.2s all ease;
+            margin-left:10px;
+            margin-bottom:15px;
         }
-        
+        h2{
+            text-shadow: 2px 2px 5px yellow;
+            font-size: 40px;
+            color: yellow;
+            font-family: arial, helvetica, san-serif;
+            margin: auto;
+            text-align:center;
+            
+
+        }
+     
         h3 {
             color: white;
             text-align: center;
@@ -186,3 +228,39 @@
         .demo:hover {
           opacity: 1;
         }
+        figure{
+            color: white ;
+            width: auto;
+            padding: 50px;
+            height: auto;
+            background: rgba(137,143,163,0.3);
+            margin: auto;
+            text-align: center;
+        }
+       @media all and (min-width:670px) {
+         main { 
+             width: 570px;
+             margin-left: 10vw;
+         }
+     }
+
+    @media all and (max-width:670px) {
+        main { margin:0 15px }
+    }
+    
+    .wave {
+        width:100vw;
+        height:150px;
+        position:fixed;
+        bottom:0;
+        
+        z-index:-1;
+    }
+    
+    #one {
+        height:180px;
+        
+        width:120vw;
+        left:-10vw;
+    
+            }
