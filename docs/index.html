@@ -3,22 +3,22 @@
     <link rel="stylesheet" href="StyleSheet.css">
     <title>Sam Deeter Portfolio</title>
     <body>
-        <header style="text-align:center;">
+       <figure> <header style="text-align:center;">
             <h1>Hello World</h1>
             <h4>By: Sam Deeter</h4>
         </header>
-        <nav>
+        <nav >
             <ul>
-                <li>
+                <li class="Skills">
                     <a href="index.html">Home</a>
                 </li>
-                <li>
+                <li class="Skills"> 
                     <a href="About.html">About</a>
                 </li>
-                <li>
+                <li class="Skills">
                     <a href="contact.html">Contact</a>
                 </li>
-                <li>
+                <li class="Skills">
                     <a href="Portfolio.html">Portfolio</a>
                 </li>
             </ul>
@@ -74,22 +74,22 @@
                 <div class="column">
                     <img class="demo cursor"
                         src="http://www.thewowstyle.com/wp-content/uploads/2015/01/nature-image.jpg"
-                        style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                        style="width:100%" onclick="currentSlide(1)" alt="Cool Tree">
                 </div>
                 <div class="column">
                     <img class="demo cursor"
                         src="https://jooinn.com/images/dramatic-landscape-7.jpg" style="width:100%"
-                        onclick="currentSlide(2)" alt="Cinque Terre">
+                        onclick="currentSlide(2)" alt="Pier by the Ocean">
                 </div>
                 <div class="column">
                     <img class="demo cursor"
                         src="http://www.thewowstyle.com/wp-content/uploads/2015/07/natural-water-bridge-hd-pictures.jpg.jpg"
-                        style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        style="width:100%" onclick="currentSlide(3)" alt="Bora Bora">
                 </div>
                 <div class="column">
                     <img class="demo cursor"
                         src="https://images.designtrends.com/wp-content/uploads/2016/01/04085621/A-Cold-Sunset-Background.jpg"
-                        style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                        style="width:100%" onclick="currentSlide(4)" alt="Snowy Feild">
                 </div>
                 <div class="column">
                     <img class="demo cursor" src="https://jooinn.com/images/nature-lake-5.jpg"
@@ -98,7 +98,7 @@
                 <div class="column">
                     <img class="demo cursor"
                         src="https://www.pcclean.io/wp-content/uploads/2020/4/BNrIVj.jpg"
-                        style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                        style="width:100%" onclick="currentSlide(6)" alt="Ocean Wall">
                 </div>
             </div>
         </div>
@@ -134,6 +134,8 @@
                 slides[slideIndex -1].style.display = "block";
                 dots[slideIndex -1].className += " active";
                 captionText.innerHTML = dots[slideIndex -1].alt;
-            }</script>
+            }
+        </script>
+       </figure>
     </body>
 </html>

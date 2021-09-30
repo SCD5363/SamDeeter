@@ -27,11 +27,27 @@
             font-size: 20px;
         }
         
+        .Skills{
+            float:left;
+            display: block;
+           
+        }
+        .Contact{
+            
+            display: block;
+           
+        }
+        .ContactMe{
+            
+        }
         
         li {
-            float: left;
-            display: block;
+           display: block;
+            
         }
+        
+        
+        
         p{
             color: white;
         }
@@ -58,28 +74,36 @@
             margin: auto;
             text-align: center;
         }
+        .drop{
+        background: rgba(0, 0, 0, 0.52);
+        width:auto;
+        margin: auto;
+        
+            
+        }
         
         h1 {
-            text-shadow: 2px 2px 5px yellow;
+            text-shadow: 2px 2px 5px cyan;
             font-size: 80px;
-            color: yellow;
+            color: cyan;
             font-family: arial, helvetica, san-serif;
             text-align:center;
             position:relative;
             display:flex;
             align-items:center;
-            font-family:'Share Tech Mono', monospace;
+            
             line-height: 1em;
             word-spacing:-.1em;
             letter-spacing:-.05em;
             transition:.2s all ease;
-            margin-left:10px;
+            margin-left:530px;
+            margin-right:auto;
             margin-bottom:15px;
         }
         h2{
-            text-shadow: 2px 2px 5px yellow;
+            text-shadow: 2px 2px 5px cyan;
             font-size: 40px;
-            color: yellow;
+            color: cyan;
             font-family: arial, helvetica, san-serif;
             margin: auto;
             text-align:center;
@@ -92,10 +116,10 @@
             text-align: center;
         }
         h4 {
-            color: yellow;
+            color: cyan;
         }
         nav {
-        
+            float: none;
             text-align:center;
         
         }
@@ -262,5 +286,49 @@
         
         width:120vw;
         left:-10vw;
-    
             }
+            .dropbtn {
+ 
+  border: none;
+  cursor: pointer;
+}
+
+    .dropbtn:hover, .dropbtn:focus {
+  background: rgba(0, 0, 0, 0.52);
+        width:auto;
+        margin: auto;
+        border: none;
+       
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  margin: 50px;
+}
+
+
+.dropdown-content {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.52);
+  width:auto;
+ 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: rgba(100,100,100,0.5);}
+
+.show {display: block;}
+
+
+
+
+            

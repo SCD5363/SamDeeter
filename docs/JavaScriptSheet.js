@@ -1,4 +1,4 @@
-function draw() {
+  function draw() {
     var canvas = $('canvas')[0];
     if(canvas.getContext) {
         var ctx = canvas.getContext('2d');
@@ -9,14 +9,35 @@ function draw() {
     }
 }
 
-$(document).ready(function() {
-    // $(document).draw();
-    $('#content').animate({
-        opacity:1,
-        marginTop:'0',
-    }, 800);
-    $('h2').click(function() {
-        $(this).next('.subtext').slideToggle('fast');
-        $(this).children('.hex').toggleClass('moved');
-    })
-});
+
+
+window.onload = init;
+
+var clickables = document.getElementsByClassName("showHide");
+var outerdivs =  document.getElementsByClassName("dropdown");
+
+function init() {
+    for (var i = 0; i < outerdivs.length; i++) {
+       clickables[i].addEventListener('mouseover', toggle, false);
+        clickables[i].addEventListener('mouseleave', toggle, false);
+        clickables[i].addEventListener('click', toggle, false);
+       clickables[i].addEventListener('touchenter', toggle, false);
+    }
+    
+        
+}
+
+function toggle() {
+toggleOff()
+let parent = this.parentElement
+let child = parent.querySelector(".dropdown-content");
+child.classList.add("show");
+}
+
+function toggleOff() {
+for (var i = 0; i < outerdivs.length; i++) {
+  let child= outerdivs[i].querySelector(".dropdown-content");
+  child.classList.remove("show");
+}
+
+}
