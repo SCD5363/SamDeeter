@@ -4,138 +4,89 @@
     <head>
         <title>SamDeeter_About</title>
         <link rel="stylesheet" href="StyleSheet.css">
+        <script type="text/javascript" src="JavaScriptSheet.js"></script>
         
-        <script>function draw() {
-    var canvas = $('canvas')[0];
-    if(canvas.getContext) {
-        var ctx = canvas.getContext('2d');
-        ctx.fillStyle = 'rgb(200, 0, 0)';
-        ctx.fillRect(10, 10, 50, 50);
-        ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
-        ctx.fillRect(30, 30, 50, 50);
-    }
-}
-
-$(document).ready(function() {
-    // $(document).draw();
-    $('#content').animate({
-        opacity:1,
-        marginTop:'0',
-    }, 800);
-    $('h2').click(function() {
-        $(this).next('.subtext').slideToggle('fast');
-        $(this).children('.hex').toggleClass('moved');
-    })
-});
-        </script>
+        
     </head>
     <body >
         <figure>
-        <h1>About Me</h1>
-        
-        <nav >
-            <ul>
-                <li class="Skills">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="Skills"> 
-                    <a href="About.html">About</a>
-                </li>
-                <li class="Skills">
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li class="Skills">
-                    <a href="Portfolio.html">Portfolio</a>
-                </li>
-            </ul>
-        </nav>
-
-       <br/>
+            <h1>About Me</h1>
+            
+            <nav >
+                <ul>
+                    <li class="Skills">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="Skills"> 
+                        <a href="About.html">About</a>
+                    </li>
+                    <li class="Skills">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="Skills">
+                        <a href="Portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <br/>
             <div class="dropdown">
-                <h2><span><a onclick="myThirdFunction()" class ="dropbtn">About the Dev</a></span></h2>
-                <div id="myDropdown2" class="dropdown-content">
-                <p>Hi my name is Sam </p>
-                <p>Digital media and arts and Game design major. With multiple years of experience in the Adobe creative cloud Creative Game Developer proudly offering over 4 years' experience using Java and C++ to create exciting video games. Observant of tight deadlines and offering a strong attention to detail.</p>
-                <p> Knowledgeable in the latest gaming trends. Versatile Graphic Designer with talent for developing unique custom artwork. Well-versed in generating innovative ideas and concepts. Collaborates with marketing and management teams to identify mockups and uses feedback to develop final drafts.</p>
-            </div>
+                <h2 class ="showHide">About the Dev</h2>
+                <div class="dropdown-content">
+                    <p>Hi my name is Sam </p>
+                    <p>Digital media and arts and Game design major. With multiple years of experience in the Adobe creative cloud Creative Game Developer proudly offering over 4 years' experience using Java and C++ to create exciting video games. Observant of tight deadlines and offering a strong attention to detail.</p>
+                    <p> Knowledgeable in the latest gaming trends. Versatile Graphic Designer with talent for developing unique custom artwork. Well-versed in generating innovative ideas and concepts. Collaborates with marketing and management teams to identify mockups and uses feedback to develop final drafts.</p>
+                </div>
             </div>
             
             <div class="dropdown">
-                <h2><span><a onclick="myForthFunction()" class ="dropbtn">Skills</a></span></h2>
-                <div id="myDropdown3" class="dropdown-content">
-                <ul>
-                    <li >•	Creative Cloud expert</li>
-                    <li >•	Retouching master</li>
-                    <li >•	Digital and print editing</li>
-                    <li >•	Lightroom understanding</li>
-                    <li >•	Lightroom understanding</li>
-                    <li >•	Graphic design principles</li>
-                    <li >•	Character creation</li>
-                    <li >•	Image optimization</li>
-                    <li >•	HTML, CSS</li>
-                    <li >•	2D and 3D modeling</li>
-                </ul>
-            </div>
+                <h2 class ="showHide">Skills</h2>
+                <div class="dropdown-content">
+                    <ul>
+                        <li >•	Creative Cloud expert</li>
+                        <li >•	Retouching master</li>
+                        <li >•	Digital and print editing</li>
+                        <li >•	Lightroom understanding</li>
+                        <li >•	Lightroom understanding</li>
+                        <li >•	Graphic design principles</li>
+                        <li >•	Character creation</li>
+                        <li >•	Image optimization</li>
+                        <li >•	HTML, CSS</li>
+                        <li >•	2D and 3D modeling</li>
+                    </ul>
+                </div>
             </div>
             
             <div class="dropdown">
                 
-                <h2><span><a onclick="myFunction()" class ="dropbtn">Hobbies & Interests</a></span></h2>
-               
-                <div id="myDropdown" class="dropdown-content">
-                <p>Small indie coding projects. Water Polo. Creating multiplayer online games. Skiing. Working in Photoshop</p>
-            </div>
+                <h2 class ="showHide">Hobbies & Interests</h2>
+                
+                <div class="dropdown-content">
+                    <p>Small indie coding projects. Water Polo. Creating multiplayer online games. Skiing. Working in Photoshop</p>
+                </div>
             </div>
             
             <div class="dropdown">  
-                <h2><span><a onclick="myNextFunction()" class ="dropbtn">Currently Working On</a></span></h2>
-                <div id="myDropdown1" class="dropdown-content">
-                <p>Designing a couple of websites, Building a 2d Platforming game, Editing pictures in Photoshop</p>
+                <h2 class ="showHide">Currently Working On</h2>
+                <div class="dropdown-content">
+                    <p>Designing a couple of websites, Building a 2d Platforming game, Editing pictures in Photoshop</p>
+                </div>
             </div>
-              </div>
             
             
-                <h2><span>Find Me</span></h2>
+            <h2 class ="showHide">Find Me</h2>
             <div class="subtext coll">
                 <a>Instagram</a> | <a>Github</a> | <a>DeveintArt</a> | <a>Facebook</a>
             </div>
             
-     
-        
-        <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="one"><path d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"></path></svg>
-        <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="two"><path d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"></path></svg>
-       
+            
+            
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="one"><path d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"></path></svg>
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="two"><path d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"></path></svg>
+            
         </figure>
         
-        <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-function myNextFunction() {
-  document.getElementById("myDropdown1").classList.toggle("show");
-}
-function myThirdFunction() {
-  document.getElementById("myDropdown2").classList.toggle("show");
-}
-function myForthFunction() {
-  document.getElementById("myDropdown3").classList.toggle("show");
-}
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
+        
     </body>
     
 </html>
