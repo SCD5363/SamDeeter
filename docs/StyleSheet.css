@@ -69,8 +69,8 @@
             width: auto;
             padding: 50px;
             height: auto;
-            border: 5px solid gray;
-            background: black;
+            border: 5px rgba(10, 10, 10, 0.52);
+            background: rgba(0, 0, 0, 0.52) ;
             margin: auto;
             text-align: center;
         }
@@ -81,6 +81,7 @@
         
             
         }
+       
         
         h1 {
             text-shadow: 2px 2px 5px cyan;
@@ -154,11 +155,21 @@
             height: auto;
             margin: auto;
             text-align: center;
-            background: rgba(0, 0, 0, 0.5);
-            
+            background: rgba(0, 0, 0, 0.5);     
       }
+       .flex-container {
+            display: flex;
+              background: rgba(0, 0, 0, 0.5);
+            }
         *{
           box-sizing: border-box;
+        }
+         div.analysis{
+            flex:1;
+            padding:2vw;
+            margin:30px;
+            
+            
         }
         
         /* Position the image container (needed to position the left and right arrows) */
