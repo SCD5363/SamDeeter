@@ -161,6 +161,12 @@
             display: flex;
               background: rgba(0, 0, 0, 0.5);
             }
+          .flex-Text {
+            margin:100px;
+            display: flex;
+              background: rgba(0, 0, 0, 1);
+            }
+            .text{text-align:left;}
         *{
           box-sizing: border-box;
         }
