@@ -93,13 +93,6 @@
             display:flex;
             align-items:center;
             
-            line-height: 1em;
-            word-spacing:-.1em;
-            letter-spacing:-.05em;
-            transition:.2s all ease;
-            margin-left:530px;
-            margin-right:auto;
-            margin-bottom:15px;
         }
         h2{
             text-shadow: 2px 2px 5px cyan;
@@ -127,7 +120,7 @@
         div.gallery {
         margin: 5px;
         border: 1px solid #ccc;
-        width: 180px;
+        width: auto;
       }
       
       div.gallery:hover {
@@ -147,7 +140,7 @@
         display: inline;
         margin-left: auto;
         margin-right: auto;
-        width:45%
+        width:50%
       }
       figure{
             width: auto;
@@ -257,7 +250,7 @@
         /* Six columns side by side */
         .column {
           float: left;
-          width: 16.66%;
+          width: 20%;
         }
         
         /* Add a transparency effect for thumnbail images */
@@ -348,7 +341,7 @@
 .wrap-element {
         position: relative;
         overflow: hidden;
-        padding-top: 56.25%;
+        
       }
       .wrapped-iframe {
         position: absolute;
