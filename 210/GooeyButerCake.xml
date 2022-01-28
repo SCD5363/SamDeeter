@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <title>Gooey Butter Cake</title>
+    <subTitle sub="1">Ingrediants</subTitle>
+    <Mesure>
+        <servingSize m="16S">Original recipe yields 16 servings</servingSize>
+        <List>
+            <ol list="1">
+                <SubTitle>Ingredient Checklist</SubTitle>
+                <li step="1"><amount m="oz">1 (15.25 ounce)</amount> package yellow cake mix</li>
+                <li step="2"><quant q="2">2 eggs</quant> </li>
+                <li step="3"><amount m="cups">½ cup butter</amount>, melted</li>
+                <li step="4"><amount m="Tsp">1 teaspoon</amount> vanilla extract</li>
+                <li step="5"><amount m="oz">1 (16 ounce)</amount> package confectioners' sugar, plus more for dusting</li>
+                <li step="6"><amount m="oz">1 (8 ounce)</amount> package cream cheese, softened</li>
+                <li step="7"><quant q="2">2 eggs</quant> </li>
+            </ol>
+        </List>
+    </Mesure>
+
+    <Instructions steps="s">
+        <SubTitle>DirectionsInstructions Checklist</SubTitle>
+        <ol list="2">
+            <Step s="1">Step 1 Preheat oven to <temp degree="F/C">350 degrees F (175 degrees C)</temp>. <size m="9x13-inch">Grease a 9x13-inch baking dish.</size> </Step>
+
+            <Step s="2">Step 2 Mix cake mix and 2 eggs together in a bowl. Add butter and vanilla
+                extract; mix until batter is smooth and thick. Spread batter into the prepared
+                baking dish. </Step>
+
+            <Step s="3">Step 3 Beat confectioners' sugar, cream cheese, and 2 eggs together in a
+                bowl until smooth; spread over batter. </Step>
+
+            <Step s="4">Step 4 Bake in the preheated oven until sides of cake are pulled away from
+                dish and browned, <time t="25-35min">25 to 35 minutes</time>. Cool cake completely. Sprinkle more
+                confectioners' sugar over cooled cake. </Step>
+        </ol>
+        <Nutrition> Nutrition Facts Per Serving: 
+            <ol>
+                <Mesure>344 calories;</Mesure> 
+                <Mesure>protein 3.9g;</Mesure> 
+                <Mesure>carbohydrates 49.5g;</Mesure>
+                <Mesure>fat 15g;</Mesure>
+                <Mesure>cholesterol 77.7mg;</Mesure>
+                <Mesure>sodium 277.5mg. </Mesure>
+            </ol>Full Nutrition 
+        </Nutrition>
+
+    </Instructions>
+</xml>
