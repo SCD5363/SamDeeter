@@ -84,7 +84,7 @@
        
         
         h1 {
-            text-shadow: 2px 2px 5px cyan;
+            text-shadow: 2px 2px 5px black;
             font-size: 80px;
             color: cyan;
             font-family: arial, helvetica, san-serif;
@@ -95,7 +95,7 @@
             
         }
         h2{
-            text-shadow: 2px 2px 5px cyan;
+            text-shadow: 2px 2px 5px black;
             font-size: 40px;
             color: cyan;
             font-family: arial, helvetica, san-serif;
